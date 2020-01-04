@@ -1,0 +1,59 @@
+body
+{
+	background-image: url("bg.png");
+	background-repeat: no repeat;
+	color:white;
+	text-shadow: 3px 1px 2px black;
+	animation: animatedBackground 15s linear infinite alternate;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0px;
+  }
+  to {
+    background-position: 100% -100px;
+  }
+}
+.container
+{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.btn
+{
+	margin-right:10px;
+}
+.btn:hover
+{
+	background:red;
+}
+a
+{
+	color:white;
+	font-size:23px;
+}
+a:hover
+{
+	text-decoration:none;
+}
+.nav-item
+{
+	margin-right:5vw;
+}
+.footer
+{
+  margin: 0;
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.navbar-toggler-icon
+{
+	box-shadow: 2px 2px 10px black;
+}
